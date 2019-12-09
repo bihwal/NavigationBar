@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Simple Interest Calculator"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/etprincple"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Please Enter Principle"
+        android:fontFamily="Arial"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:id="@+id/ettime"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Please Enter Time"
+        android:fontFamily="Arial"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:id="@+id/etrate"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Please Enter Rate"
+        android:fontFamily="Arial"
+        android:textSize="20dp"
+        />
+    <Button
+        android:id="@+id/btnSI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate SI"
+        android:textSize="40dp"
+        />
+    <TextView
+        android:id="@+id/tvresult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+
+        />
+
+</LinearLayout>

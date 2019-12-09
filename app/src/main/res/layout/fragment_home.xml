@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="400dp"
+    tools:context=".fragments.AreaofCircle">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Area of Circle"
+        android:textSize="40dp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:inputType="text"
+        android:id="@+id/etnareacirc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:layout_marginRight="50dp"
+        android:hint="Raduis of circle" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnareacirc"
+        android:text="Area of circle"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+    <TextView
+        android:id="@+id/tvdisplaya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"
+        android:textSize="25dp"
+        android:textAlignment="center"/>
+
+
+</LinearLayout>
